@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SampleConsoleApps.Graph
 {
-    class GraphDFS
+    public class GraphDFS
     {
         private int vertices;
         private List<int>[] adjacencyList;
@@ -47,9 +47,9 @@ namespace SampleConsoleApps.Graph
         }
     }
 
-    class DFSExample
+    public static class DFSExample
     {
-        static void Main()
+        public static void Main()
         {
             GraphDFS graph = new GraphDFS(5);
 

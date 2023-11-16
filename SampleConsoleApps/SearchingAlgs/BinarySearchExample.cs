@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace SampleConsoleApps.SearchingAlgs
 {
-    class BinarySearchExample
+    public static class BinarySearchExample
     {
-        static void Main()
+        public static void Main()
         {
             int[] array = { 11, 22, 25, 34, 64, 90 };
 

@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace SampleConsoleApps.Algs;
 
-class BubbleSortExample
+public static class BubbleSortExample
 {
-    static void Main()
+    public static void Main()
     {
         int[] array = { 64, 34, 25, 12, 22, 11, 90 };
 

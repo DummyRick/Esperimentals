@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace SampleConsoleApps.Graph
 {
 
-    class GraphBFS
+    public class GraphBFS
     {
         private int vertices;
         private List<int>[] adjacencyList;
@@ -52,9 +52,9 @@ namespace SampleConsoleApps.Graph
         }
     }
 
-    class BFSExample
+    public static class BFSExample
     {
-        static void Main()
+        public static void Main()
         {
             GraphBFS graph = new GraphBFS(6);
 

@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace SampleConsoleApps.Algs
 {
-    class QuickSortExample
+    public static class QuickSortExample
     {
-        static void Main()
+        public static void Main()
         {
             int[] array = { 64, 34, 25, 12, 22, 11, 90 };
 
