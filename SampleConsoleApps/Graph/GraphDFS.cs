@@ -51,7 +51,7 @@ namespace SampleConsoleApps.Graph
     {
         static void Main()
         {
-            Graph graph = new Graph(5);
+            GraphDFS graph = new GraphDFS(5);
 
             // Adding edges to the graph
             graph.AddEdge(0, 1);
