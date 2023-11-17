@@ -51,3 +51,10 @@ Console.WriteLine($"******************************************");
 Console.WriteLine(nameof(DFSExample));
 DFSExample.Main();
 Console.WriteLine("");
+
+
+
+Console.WriteLine($"******************************************");
+Console.WriteLine(nameof(DijkstraAlgorithm));
+DijkstraAlgorithm.Main();
+Console.WriteLine("");
