@@ -15,6 +15,12 @@
             PrintArray(array);
         }
 
+        /// <summary>
+        /// cicla dalla posizione 0 alla posizione N
+        /// Cerca il minimo tra i rimanenti e swappa la posizione.
+        /// Complessità: 
+        /// </summary>
+        /// <param name="arr"></param>
         static void SelectionSort(int[] arr)
         {
             int n = arr.Length;

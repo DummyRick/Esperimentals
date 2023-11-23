@@ -14,7 +14,13 @@
             Console.WriteLine("\nSorted array:");
             PrintArray(array);
         }
-
+        /// <summary>
+        /// Sempre un algorirmo di merda
+        /// O (n2 )
+        /// In computer science, selection sort is an in-place comparison sorting algorithm. 
+        /// It has an O(n2) time complexity, which makes it inefficient on large lists, and generally performs worse than the similar insertion sort.
+        /// </summary>
+        /// <param name="arr"></param>
         static void SelectionSort(int[] arr)
         {
             int n = arr.Length;

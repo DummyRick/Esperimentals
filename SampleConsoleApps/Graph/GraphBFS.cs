@@ -1,4 +1,7 @@
-﻿namespace SampleConsoleApps.Graph
+﻿using System.Runtime.ConstrainedExecution;
+using System;
+
+namespace SampleConsoleApps.Graph
 {
 
     public class GraphBFS
@@ -21,6 +24,19 @@
             adjacencyList[v].Add(w);
         }
 
+        /// <summary>
+//        Si usa per trovare il percorso più breve da una singola sorgente a tutti gli altri noti.
+//        Spiegazione breve:
+//	            - Ci si appoggia ad un'altra struttura che è l'aberto di uscita
+//	            - Si scorre tutto usando una coda e un vettore i bool per sapere dove fermarsi.
+//	            - Si può fare perché non tocchiamo valori del albero di partenza.
+//        Si crea un nuovo albero basato sul grafo.
+//        Passi:
+//	            - Si decide un nodo sorgente
+//	            - Da li si ricavano i collegamenti scorrendo il grafo fino alle foglie.
+//	            - Ci si stoppa quando si incontra la fine o un nodo in precedenza visitato.
+        /// </summary>
+        /// <param name="startVertex"></param>
         public void BFS(int startVertex)
         {
             bool[] visited = new bool[vertices];

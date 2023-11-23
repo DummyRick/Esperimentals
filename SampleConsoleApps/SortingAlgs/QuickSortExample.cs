@@ -14,7 +14,12 @@
             Console.WriteLine("\nSorted array:");
             PrintArray(array);
         }
-
+        /// <summary>
+        /// https://en.wikipedia.org/wiki/Quicksort
+        /// </summary>
+        /// <param name="arr"></param>
+        /// <param name="low"></param>
+        /// <param name="high"></param>
         static void QuickSort(int[] arr, int low, int high)
         {
             if (low < high)

@@ -15,6 +15,16 @@
             PrintArray(array);
         }
 
+
+        /// <summary>
+        /// Funzione ricorsiva.
+        /// Divide ricorsivamente finche non si arriva al elemento singolo.
+        /// Poi si ricompone allo stesso modo ordinando
+        /// https://en.wikipedia.org/wiki/Merge_sort
+        /// </summary>
+        /// <param name="arr"></param>
+        /// <param name="left"></param>
+        /// <param name="right"></param>
         static void MergeSort(int[] arr, int left, int right)
         {
             if (left < right)

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace SampleConsoleApps.Graph
+﻿namespace SampleConsoleApps.Graph
 {
 
     public static class DijkstraAlgorithm
@@ -31,6 +25,16 @@ namespace SampleConsoleApps.Graph
             }
         }
 
+
+        /// <summary>
+        /// Dijkstra's algorithm to find the shortest path between a and b.
+        /// It picks the unvisited vertex with the lowest distance, calculates the distance through it to each unvisited neighbor, 
+        /// and updates the neighbor's distance if smaller. 
+        /// Mark visited (set to red) when done with neighbors.
+        /// </summary>
+        /// <param name="graph"></param>
+        /// <param name="startNode"></param>
+        /// <returns></returns>
         static int[] Dijkstra(int[,] graph, int startNode)
         {
             int numNodes = graph.GetLength(0);

@@ -19,7 +19,16 @@
         {
             adjacencyList[v].Add(w);
         }
-
+        /// <summary>
+        /// Attraversa il grafo prima verificando il nodo corrente, poi spostandosi verso uno dei suoi successori e ripetendo il processo. 
+        /// Se il nodo corrente non ha successori da verificare,
+        /// torna indietro al suo predecessore e il processo continua (spostandosi verso un altro successore).
+        /// Se viene trovata la soluzione la ricerca si arresta.
+        /// 
+        /// Si basa sul riconoscimento delle relazioni degli archi (relazioni che definiscono una gerachia dei nodi.)
+        /// 
+        /// </summary>
+        /// <param name="startVertex"></param>
         public void DFS(int startVertex)
         {
             bool[] visited = new bool[vertices];

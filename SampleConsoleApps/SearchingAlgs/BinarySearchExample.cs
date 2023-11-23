@@ -22,6 +22,14 @@
             }
         }
 
+
+        /// <summary>
+        /// Si divide sempre l'array a metà andando a prendere la media del valore fino a trovarlo.
+        /// Binary search runs in logarithmic time in the worst case, making O(log n) comparisons, where n is the number of elements in the array
+        /// </summary>
+        /// <param name="arr"></param>
+        /// <param name="target"></param>
+        /// <returns></returns>
         static int BinarySearch(int[] arr, int target)
         {
             int left = 0, right = arr.Length - 1;

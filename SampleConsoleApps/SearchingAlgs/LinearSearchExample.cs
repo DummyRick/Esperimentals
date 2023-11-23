@@ -22,6 +22,9 @@
             }
         }
 
+
+        // A linear search runs in at worst linear time and makes at most n comparisons, where n is the length of the list.
+        // O(n)
         static int LinearSearch(int[] arr, int target)
         {
             for (int i = 0; i < arr.Length; i++)
