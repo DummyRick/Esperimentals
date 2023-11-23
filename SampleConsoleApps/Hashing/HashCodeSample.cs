@@ -1,6 +1,5 @@
 ﻿namespace SampleConsoleApps.Hashing
 {
-
     /// <summary>
     /// HashCodeSample
     /// </summary>
