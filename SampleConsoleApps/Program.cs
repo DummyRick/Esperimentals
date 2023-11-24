@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using SampleConsoleApps.Algs;
 using SampleConsoleApps.Graph;
+using SampleConsoleApps.Hashing;
 using SampleConsoleApps.SearchingAlgs;
 
 Console.WriteLine($"******************************************");
@@ -57,4 +58,16 @@ Console.WriteLine("");
 Console.WriteLine($"******************************************");
 Console.WriteLine(nameof(DijkstraAlgorithm));
 DijkstraAlgorithm.Main();
+Console.WriteLine("");
+
+
+Console.WriteLine($"******************************************");
+Console.WriteLine(nameof(HashCodeSample));
+HashCodeSample.Main();
+Console.WriteLine("");
+
+
+Console.WriteLine($"******************************************");
+Console.WriteLine(nameof(HashSetSample));
+HashSetSample.Main();
 Console.WriteLine("");

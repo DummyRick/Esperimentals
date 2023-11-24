@@ -43,10 +43,9 @@
 
             public override int GetHashCode()
             {
-                return X.GetHashCode() ^ Y.GetHashCode();
+                return HashCode.Combine(X, Y);
             }
         }
-
         public static void Main()
         {
             var pointA = new PointA() { X = 1, Y = 2 };

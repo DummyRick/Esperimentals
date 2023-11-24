@@ -5,9 +5,9 @@
         public static void Main()
         {
 
-            Console.Write("1. List to HashSet");
+            Console.Write("1. List to HashSet: ");
 
-            HashSet<string> listHobbies = new HashSet<string>
+            List<string> listHobbies = new List<string>
             {
                 "calcio",
                 "nuoto",
@@ -20,14 +20,14 @@
 
             };
 
-            Console.Write("Original List:");
+            Console.Write("Original List: ");
             PrintArray(listHobbies.ToArray());
 
             // A HashSet is an optimized collection of unordered, unique elements that provides fast lookups and high-performance set operations. 
             // Ottimo per le performance e non ammette dupplicati
             // HashSet più veloce di array
 
-            Console.Write("Same list casted in HashSet");
+            Console.Write("Same list casted in HashSet: ");
             HashSet<string> hobbies = new HashSet<string>(listHobbies);
             PrintArray(hobbies.ToArray());
 
@@ -45,7 +45,7 @@
             PrintArray(hobbies.Union(hobbiesB).ToArray());
 
 
-            Console.Write("3. Intersection");
+            Console.Write("3. Intersection: ");
 
             PrintArray(hobbies.Intersect(hobbiesB).ToArray());
 

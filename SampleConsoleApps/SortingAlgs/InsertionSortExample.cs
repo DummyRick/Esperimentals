@@ -18,7 +18,7 @@
         /// <summary>
         /// cicla dalla posizione 0 alla posizione N
         /// Cerca il minimo tra i rimanenti e swappa la posizione.
-        /// Complessità: 
+        /// Complessità: O(n2) => una merda
         /// </summary>
         /// <param name="arr"></param>
         static void SelectionSort(int[] arr)
